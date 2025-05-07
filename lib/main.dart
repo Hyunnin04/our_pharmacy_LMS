@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:our_pharmacy_learning_management_system/login/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +13,7 @@ void main() {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: const SplashScreen(),
     );
   }
 }
