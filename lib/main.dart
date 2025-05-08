@@ -13,7 +13,11 @@ void main() {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context)=> SplashScreen(),
+      },
     );
   }
 }
+
