@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:our_pharmacy_learning_management_system/login/login_form.dart';
 import 'package:our_pharmacy_learning_management_system/login/splash_screen.dart';
 
 void main() {
@@ -16,6 +17,7 @@ void main() {
       initialRoute: '/',
       routes: {
         '/': (context)=> SplashScreen(),
+        '/login_form': (context)=> LoginForm(),
       },
     );
   }

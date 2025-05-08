@@ -5,6 +5,10 @@ class LoginForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        children: [Center(child: Image.asset("assets/images/pka_chan.png"))],
+      ),
+    );
   }
 }
