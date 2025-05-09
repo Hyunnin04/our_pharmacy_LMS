@@ -5,15 +5,13 @@ import 'package:our_pharmacy_learning_management_system/login/widgets/navbar_but
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
-  
+
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-
-
 class _SplashScreenState extends State<SplashScreen> {
- @override
+  @override
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 5), () {
@@ -36,8 +34,8 @@ class _SplashScreenState extends State<SplashScreen> {
             Center(
               child: Image.asset(
                 "assets/logos/op_logo.png",
-                width: 220.0,
-                height: 220.0,
+                width: 180.0,
+                height: 198.0,
               ),
             ),
             Spacer(),

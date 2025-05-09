@@ -6,8 +6,7 @@ void main() {
   runApp(const MyApp());
 }
 
-
- class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
@@ -16,10 +15,9 @@ void main() {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context)=> SplashScreen(),
-        '/login_form': (context)=> LoginForm(),
+        '/': (context) => SplashScreen(),
+        '/login_form': (context) => LoginForm(),
       },
     );
   }
 }
-
