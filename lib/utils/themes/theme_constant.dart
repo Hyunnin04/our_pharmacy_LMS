@@ -5,8 +5,6 @@ class ThemeConstant {
   static const success = Color(0xFF3DAF35);
 
   static const ColorScheme lightScheme = ColorScheme(
-    background: Color(0xFFF3F2F2),
-    onBackground: Color(0xFFE8E6E6),
     primary: Color(0xFF006E2F),
     onPrimary: Color(0xFFFFFFFF),
     primaryContainer: Color(0xFF71FE93),
@@ -45,7 +43,7 @@ class ThemeConstant {
       iconTheme: IconThemeData(color: lightScheme.onSurface),
       titleTextStyle: textTheme().headlineSmall?.copyWith(color: lightScheme.onSurface, fontWeight: FontWeight.bold),
     ),
-    colorScheme: lightScheme.copyWith(background: lightScheme.background),
+    colorScheme: lightScheme.copyWith(surface: lightScheme.surface),
   );
 
 

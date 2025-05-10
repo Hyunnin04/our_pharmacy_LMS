@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:our_pharmacy_learning_management_system/login/widgets/navbar_buttom.dart';
+import 'package:our_pharmacy_learning_management_system/login/widgets/navbar_bottom.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
             Spacer(),
-            NavbarButtom(),
+            NavbarBottom(),
           ],
         ),
       ),
